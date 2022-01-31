@@ -1,11 +1,9 @@
---[[ Note
-	Read the wiki article that uses this code to learn more about it:
-	http://wiki.roblox.com/index.php?title=Handling_multiple_developer_products
---]]
+--// Microtransactions_Handler
+--// Scripted by: BrawlBattle
+--// Desc: Handles every player transaction and grants in-game benefits (cash, gems, gears, etc).
 
 local MarketplaceService = game:GetService("MarketplaceService")
 local PurchaseHistory = game:GetService("DataStoreService"):GetDataStore("PurchaseHistory")
---local Analytics = require(game.ReplicatedStorage.AnalyticsModule)
 
 --[[
 	This is how the table below has to be set up:
@@ -17,7 +15,7 @@ local PurchaseHistory = game:GetService("DataStoreService"):GetDataStore("Purcha
 --]]
 local Products = {
 	--[[
-	-- productId 1111 for a heal up
+	-- EXAMPLE: productId 1111 for a heal up
 	[1111] = function(receipt,player)
 		-- Check if we can actual heal him
 		if not player.Character then return end
@@ -38,6 +36,7 @@ local Products = {
 		--Analytics.RecordTransaction(player, 15, "Credits:10000")
 		--Analytics.RecordResource(player, 10000, "Source", "Credits", "ProductStore", "Credits:10K")
 		
+		--Play purchase sound
 		local sound = Instance.new("Sound")
 		sound.SoundId = "rbxassetid://1034765430"
 		sound.Parent = player.PlayerGui
@@ -49,7 +48,7 @@ local Products = {
 	end;
 	---------------------- 25,000 Cash ----------------------
 	[164323603] = function(receipt,player)
-		-- same thing as above, but now for 200 cash
+		-- same thing as above, but now for 25K cash
 		local cash = game.ServerStorage.PlayerMoney:FindFirstChild(player.Name)
 		if not cash then return end
 		cash.Value = cash.Value + 25000
