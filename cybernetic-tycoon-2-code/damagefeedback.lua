@@ -12,11 +12,13 @@ local char = script.Parent
 local hum = char:FindFirstChild("Humanoid")
 local currentHealth = hum.Health
 
+--Check if gamepad input is vibrate compatable
 if isVibrateSupported then
 	largeSupported = HS:IsMotorSupported(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large)
 end
 
 
+--Trigger large haptic feedback when player dies
 hum.Died:Connect(function()
 	if UIS.GamepadEnabled and isVibrateSupported and largeSupported then
 		HS:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 0.5)
@@ -26,6 +28,7 @@ hum.Died:Connect(function()
 	end
 end)
 
+--Trigger small haptic feedback when player gets hurt
 hum.HealthChanged:Connect(function(health)
 	if UIS.GamepadEnabled and isVibrateSupported and largeSupported then
 	
