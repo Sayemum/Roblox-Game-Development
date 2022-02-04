@@ -10,3 +10,5 @@ Created: **3/4/2018**
 
 _**Objective:**_
 Create your own cybernetic factory by developing money-making machines called **"Droppers"** and expanding your base to make it to the top! Fight off against a plethora of robotic enemies and survive!
+
+![Cybernetic Tycoon Game Icon #5](https://user-images.githubusercontent.com/84354582/152087179-3c2632cf-5bb5-448b-bcdd-35dad441e343.png)
