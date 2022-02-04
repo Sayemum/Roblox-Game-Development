@@ -20,13 +20,21 @@ Cybernetic Tycoon is the first game that I really dedicated a lot of time into m
 _**Progress - Cybernetic Tycoon:**_
 During the game's initial release in late 2018, I created advertisements that would be posted occassionally on the website, but that brought little-to-no players and the game died super easily. It was until March 2019 where Cybernetic Tycoon founds its way into the algorithm and gained a huge traction of players overnight. The game immediately went from 1-2 concurrent players to 300-400. Throughout the next 2 months, the game continued to gain more players playing the game and more promotion, peaking the concurrent player count up to 1,100-1,200 players. During that time, I focused a lot of my time on creating more updates to the game and managing it. This was hard to do since I didn't have a team and I was just a solo developer. The lifespan of the game was shortlived as after several of months, the game kept dropping in concurrent player count and the game today sits back to 1-5 concurrent players.
 
-_**Statistics - Cybernetic Tycoon (As of Feb. 2022):**_
-Total Visits: 6.2M+
-Likes: 16K+ | Dislikes: 2,844
-Favorites: 62,279
+_**Statistics - Cybernetic Tycoon (As of Feb. 2022):**_ <br />
+Total Visits: 6.2M+ <br />
+Likes: 16K+ | Dislikes: 2,844 <br />
+Favorites: 62,279 <br />
 Total Revenue: $4,000.00+
 
 _**Revenue - Cybernetic Tycoon:**_
 Believe it or not, Roblox developers can be paid real currency through a process known as **Developer Exchange**. Roblox has a digital currency called **Robux** and players have the option to spend them on microtransactions that the games they play offer them. I put down microtransactions in my game like extra cash, autocollect cash, overpowered weapons, and so on. Through these microtransactions, I was able to get a robux cut from each sale that I made, specifically 70% of the sales made. With these accumulated robux, I can transfer these earned robux back to Roblox and they will personally pay me through a process. The amount of money I receive depends on how much robux I transfer. If I transfer 100K Robux, I get $350.00. If I transfer 1M Robux, I get $3,500.00. I used this process two times, and in total I gained roughly $4,000.00+ from Cybernetic Tycoon.
 <!--cybernetic tycoon developer exchange ss-->
 ![opera_YZnxFBhzkY](https://user-images.githubusercontent.com/84354582/151709959-8295d7d3-14ba-417b-ad31-fbcc40bc4ea5.png)
+
+
+_**Aftermath:**_
+After the overwhelming success of Cybernetic Tycoon, I continued to make more projects. None of these future projects were as successful as Cybernetic Tycoon, but I still had a blast making them. The next project I made was a direct sequel called _Cybernetic Tycoon 2_. This was going to be the "new and improved", modernized version of the first game with better graphics, mechanics, and so on. The game was in development for 3 months and after releasing the first version to the public, it got a slight bit of traction, but failed to maintain it. Afterwards, nobody ended up playing it and it didn't reach the same consistency as the first game. I made another game that was unfinished and never released called _Bombastic Battles_. I made some interesting code with this game, and although it was never released, I gained a lot of coding experience making it. The most recent project that I was proud of was another game called _Unmasked_. This game was also unfinished and never released, but once again, I learned a lot in terms of coding when making this game.
+
+
+_**Conclusion:**_
+Roblox is an important piece of my childhood that I will never take for anything else. It filled up a lot of my boring times with games that I could always come back to. After having the passion of creating my own roblox game, I ended up fulfilling my dream of becoming a popular roblox developer; although it was shortlived. I got to learn how to program, build stuff in a virtual environment, make new friends, and learn how to manage a project. I had a lot of fun being a roblox developer and I hope I can utilize the skills that I have learned through creating roblox games to my fullest potential.
