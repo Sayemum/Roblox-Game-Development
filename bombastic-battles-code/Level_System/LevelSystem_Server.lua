@@ -48,32 +48,10 @@ LevelSystem.CalculateLvlThreshold = function(level)
 
 	elseif nextLevel >= 61 and nextLevel <= 101 then
 		threshold = nextLevel * 50
-
-	--[[elseif nextLevel >= 71 and nextLevel <= 80 then
-		threshold = nextLevel * 55
-
-	elseif nextLevel >= 81 and nextLevel <= 90 then
-		threshold = nextLevel * 60
-
-	elseif nextLevel >= 91 and nextLevel <= 101 then
-		threshold = nextLevel * 65]]
 	end
 
 	return threshold
 end
-
---[[LevelSystem.CalculateLvlThreshold = function(level)
-	local threshold = 0
-
-	if level >= 1 and level <= 50 then
-		threshold = level * 35
-
-	elseif level >= 51 and level <= 100 then
-		threshold = level * 15
-	end
-
-	return threshold
-end]]
 
 local Signals     = {} do 
 	for _, Signal in pairs(script.signals:GetChildren()) do
